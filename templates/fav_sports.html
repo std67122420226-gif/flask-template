@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flask Template</Template></title>
+</head>
+<body>
+  <h1>{{ title }}</h1>
+  <hr>
+  <h2>My Favorite Sports</h2>
+  <h3>1. {{ sports[0] }}</h3>
+  <h3>1. {{ sports[1] }}</h3>
+  <h3>1. {{ sports[2] }}</h3>
+  <h3>1. {{ sports[4] }}</h3>
+    <ol>
+    <li>{{sports[0]}}</li>
+    <li>{{sports[1]}}</li>
+    <li>{{sports[2]}}</li>
+    <li>{{sports[3]}}</li>
+  </ol> 
+  <ol>
+    {% for element in collection %}
+        <li>{{food}}</li>
+    {% endfor %}
+  </ol>
+</body>
+</html>
